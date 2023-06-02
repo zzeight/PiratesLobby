@@ -1,0 +1,61 @@
+name: PiratesHub
+version: 1.0
+api-version: 1.13
+main: com.piratamc.zzeight.lobby.PiratesLobby
+loadbefore: [Essentials]
+softdepend: [PlaceholderAPI, HeadDatabase, Multiverse-Core]
+permissions:
+  pirateshub.*:
+    description: Gives access to all PiratesHub permissions
+    children:
+      pirateshub.command.*: true
+      pirateshub.bypass.*: true
+      pirateshub.alert.*: true
+      pirateshub.item.*: true
+      pirateshub.player.*: true
+      pirateshub.block.*: true
+  pirateshub.command.*:
+    description: Gives access to all command permissions
+    children:
+      pirateshub.command.help: true
+      pirateshub.command.reload: true
+      pirateshub.command.scoreboard: true
+      pirateshub.command.openmenu: true
+      pirateshub.command.holograms: true
+      pirateshub.command.gamemode: true
+      pirateshub.command.gamemode.others: true
+      pirateshub.command.clearchat: true
+      pirateshub.command.lockchat: true
+      pirateshub.command.fly: true
+      pirateshub.command.fly.others: true
+      pirateshub.command.setlobby: true
+      pirateshub.command.vanish: true
+  pirateshub.bypass.*:
+    description: Gives access to all bypass permissions
+    children:
+      pirateshub.bypass.antiswear: true
+      pirateshub.bypass.commands: true
+      pirateshub.bypass.lockchat: true
+      pirateshub.bypass.antiwdl: true
+      pirateshub.bypass.doublejump: false
+  pirateshub.alert.*:
+    description: Gives access to all alert permissions
+    children:
+      pirateshub.alert.updates: true
+      pirateshub.alert.antiswear: true
+      pirateshub.alert.antiwdl: true
+  pirateshub.item.*:
+    description: Gives access to all item based permissions
+    children:
+      pirateshub.item.drop: true
+      pirateshub.item.pickup: true
+  pirateshub.player.*:
+    description: Gives access to all player based permissions
+    children:
+      pirateshub.player.pvp: true
+  pirateshub.block.*:
+    description: Gives access to all block based permissions
+    children:
+      pirateshub.block.break: true
+      pirateshub.block.place: true
+      pirateshub.block.interact: true

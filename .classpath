@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/joaoa/Downloads/PirateSpigot.jar"/>
+	<classpathentry kind="lib" path="C:/Users/joaoa/Downloads/item-nbt-api-plugin-2.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/joaoa/Downloads/PlaceholderAPI-2.10.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/joaoa/Downloads/HeadDatabase-4.17.0-.jar"/>
+	<classpathentry kind="lib" path="C:/Users/joaoa/Downloads/bstats-bukkit-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/joaoa/Downloads/bstats-base-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/joaoa/eclipse-workspace/CommandFramework"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
